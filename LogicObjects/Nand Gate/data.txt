@@ -1,0 +1,4 @@
+NAND Gate
+IN in1 -3 15;
+IN in2 -3 55;
+OUT out 160 35 !(in1 && in2);

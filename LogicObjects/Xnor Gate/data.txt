@@ -1,0 +1,4 @@
+XNOR Gate
+IN in1 -5 17;
+IN in2 -5 57;
+OUT out 175 37 in1 == in2;
