@@ -1,3 +1,0 @@
-NOT Gate
-IN in -5 30;
-OUT out 120 30 !in;

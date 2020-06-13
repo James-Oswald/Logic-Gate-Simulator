@@ -1,4 +1,0 @@
-XOR Gate
-IN in1 -5 15;
-IN in2 -5 55;
-OUT out 165 37 in1 != in2;

@@ -1,2 +1,0 @@
-High Const
-OUT out 60 15 true;
