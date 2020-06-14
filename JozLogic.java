@@ -1,4 +1,4 @@
-package com.jozwald.projects;
+
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;

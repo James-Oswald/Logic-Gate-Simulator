@@ -1,4 +1,0 @@
-AND Gate
-IN in1 -5 15;
-IN in2 -5 55;
-OUT out 145 35 in1 && in2;

@@ -6,10 +6,8 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - JozLogic",
+            "name": "Java Launch JozLogic",
             "request": "launch",
-            "mainClass": "com.jozwald.projects.JozLogic",
-            "projectName": "JozLogic"
         },
     ]
 }
