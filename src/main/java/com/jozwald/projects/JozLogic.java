@@ -756,6 +756,7 @@ public class JozLogic
 		catch(Exception e)
 		{
 			DEBUG(e.getMessage());
+			e.printStackTrace();
 		}
 	} 
 
