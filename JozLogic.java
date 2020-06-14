@@ -665,7 +665,7 @@ public class JozLogic
 	{
 		private static final long serialVersionUID = 6096484822603856170L;
 		
-		private final String LOP = "LogicObjects/";
+		private final String LOP = "/resources/LogicObjects/";
 		private MainDisplay parent;
 		private JList <String> listObject;
 		private ArrayList <String> list;
@@ -756,6 +756,7 @@ public class JozLogic
 		catch(Exception e)
 		{
 			DEBUG(e.getMessage());
+			e.printStackTrace();
 		}
 	} 
 
@@ -764,7 +765,7 @@ public class JozLogic
 		JFrame window = new JFrame("JozLogic");
 		window.add(new MainDisplay(System.getProperty("user.dir")));
 		window.setExtendedState(JFrame.MAXIMIZED_BOTH); 
-		window.setIconImage(ImageIO.read(new File("lex.png")));
+		window.setIconImage(ImageIO.read(new File("resources/lex.png")));
 		window.setSize(1000, 1000);
 		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		window.setVisible(true);
