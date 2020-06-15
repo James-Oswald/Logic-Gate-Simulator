@@ -665,7 +665,7 @@ public class JozLogic
 	{
 		private static final long serialVersionUID = 6096484822603856170L;
 		
-		private final String LOP = "LogicObjects/";
+		private final String LOP = "/resources/LogicObjects";
 		private MainDisplay parent;
 		private JList <String> listObject;
 		private ArrayList <String> list;
@@ -708,7 +708,7 @@ public class JozLogic
 		public void updateList()
 		{
 			list.clear();
-			File rootBin = new File(parent.getCurDir() + LOP);
+			File rootBin = new File(/*parent.getCurDir() +*/ LOP);
 			File[] objects = rootBin.listFiles();
 			for(int i = 0; i < objects.length; i++)
 			{
